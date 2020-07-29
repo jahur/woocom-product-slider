@@ -19,7 +19,7 @@ function woowcms_scripts() {
 
 	wp_enqueue_script('script-owl-carousel', plugin_dir_url(__FILE__) . 'assets/owlcarousel/owl.carousel.js', array('jquery'), '1.0.1', true);
 
-	wp_enqueue_script('custom-js', plugin_dir_url(__FILE__) . 'assets/owlcarousel/custom.js', array('jquery'), '1.0.4', true);
+	wp_enqueue_script('custom-js', plugin_dir_url(__FILE__) . 'assets/owlcarousel/custom.js', array('jquery'), '1.0.5', true);
 
 
 
@@ -45,13 +45,15 @@ if(!$sattr['category']){
 	'post_type' => 'product',
 ));
 } else {
+
+    $sattr_arr = explode (",", $sattr['category']);
 	$the_query = new WP_Query( array(
 	'post_type' => 'product',
 	'tax_query' => array(
 		array(
 			'taxonomy' => 'product_cat',
 			'field'    => 'slug',
-			'terms'    => $sattr['category'],
+			'terms'    => $sattr_arr,
 		),
 	),
 ));
