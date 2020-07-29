@@ -12,7 +12,10 @@
   -webkit-tap-highlight-color: transparent;
   /* position relative and z-index fix webkit rendering fonts issue */
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  background: #fff;
+  padding: 0 15px;
+ }
   .owl-carousel .owl-stage {
     position: relative;
     -ms-touch-action: pan-Y;
@@ -168,3 +171,27 @@
   z-index: 1;
   height: 100%;
   width: 100%; }
+
+  .owl-carousel .owl-nav{
+    text-align:right;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 0;
+    background-position: center center;
+    margin: 0 5px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+  }
+  .owl-carousel .owl-nav .owl-prev{
+    background-image:url("angle-left-solid.svg") ;
+  }
+  .owl-carousel .owl-nav .owl-next{
+    background-image:url("angle-right-solid.svg") ;
+  }
