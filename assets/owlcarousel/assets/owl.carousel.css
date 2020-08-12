@@ -14,7 +14,6 @@
   position: relative;
   z-index: 1;
   background: #fff;
-  padding: 0 15px;
  }
   .owl-carousel .owl-stage {
     position: relative;
@@ -195,3 +194,63 @@
   .owl-carousel .owl-nav .owl-next{
     background-image:url("angle-right-solid.svg") ;
   }
+
+  .wcm-flexbox-container {
+    display: flex;
+  }
+  
+  .wcm-flexbox-container .price-wrapper {
+    width: 40%;
+    padding: 5px;
+  }
+
+  .wcm-flexbox-container .cart-button-wrapper {
+    width: 60%;
+    padding: 5px;
+  }
+  .wcm-flexbox-container .cart-button-wrapper .button{
+    padding: 0.3rem;
+  }
+  .wcm-flexbox-container .cart-button-wrapper .added_to_cart{
+    padding: 0.12em 1em;
+  }
+  .owl-item .item{
+    padding:10px;
+    transition: all 0.4s;
+    width: inherit;
+  }
+  .owl-item .item:hover{
+    box-shadow: 0 5px 10px rgba(188,207,219,.35);
+    transition: all 0.4s;
+  }
+  .owl-carousel .owl-stage-outer{
+    padding:15px 0px;
+  }
+  /* Equal Heights for OwlCarousel 2 */
+.owl-carousel .owl-stage {
+  display: -webkit-box;
+  display: flex;
+}
+.owl-carousel .owl-item {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-flex: 1;
+          flex: 1 0 auto;
+}
+
+
+@media screen and (max-width:768px){
+  .wcm-flexbox-container {
+    display: block;
+  }
+  
+  .wcm-flexbox-container .price-wrapper {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .wcm-flexbox-container .cart-button-wrapper {
+    width: 100%;
+    padding: 5px;
+  }
+}

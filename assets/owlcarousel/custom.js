@@ -2,7 +2,8 @@ jQuery(document).ready(function( $ ) {
               var owl = $('.owl-carousel');
               owl.owlCarousel({
                 margin: 10,
-                autoHeight: true,
+                stagePadding: 10,
+                autoHeight: false,
                 nav: true,
 				dots: false,
 				navText: ['<','>'],

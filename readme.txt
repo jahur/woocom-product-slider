@@ -2,13 +2,13 @@
 Contributors:jahur
 Tags: WooCommerce, wooCommerce product slider, woo product slider, product slider
 Requires at least: 4.0
-Tested up to: 4.9
-Stable tag: 1.0.1
+Tested up to: 5.2
+Stable tag: 1.0.2
 
 A simple way to show woocommerce products in your website!
 
 == Description ==
-Install this plugin and you are ready to go. Use [woowcms] shortcode to show all products. Add category parameter to show products from a specific category. [woowcms category="music"]
+Install this plugin and you are ready to go. Use [woowcms] shortcode to show all products. Add category parameter to show products from a specific category. [woowcms category="music,tshirt"]
 
 == Installation ==
 
@@ -22,6 +22,9 @@ Step 2. Activate the plugin through the Plugins menu in WordPress
 
 == Changelog == 
 
-
+= 1.0.2 = 
+ * Design improvement, allowed multiple categories
+= 1.0.0 = 
+ * Some bug fix
 = 1.0.0 = 
  * First stable release
