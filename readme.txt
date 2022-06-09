@@ -2,8 +2,8 @@
 Contributors:jahur
 Tags: WooCommerce, wooCommerce product slider, woo product slider, product slider
 Requires at least: 4.0
-Tested up to: 5.2
-Stable tag: 1.0.2
+Tested up to: 6.0
+Stable tag: 1.1.0
 
 A simple way to show woocommerce products in your website!
 
@@ -22,6 +22,8 @@ Step 2. Activate the plugin through the Plugins menu in WordPress
 
 == Changelog == 
 
+= 1.1.0 =
+ * Clean code, design improvement
 = 1.0.2 = 
  * Design improvement, allowed multiple categories
 = 1.0.0 = 
