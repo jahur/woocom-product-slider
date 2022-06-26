@@ -1,6 +1,6 @@
 <?php
 
-namespace WOOWCMS\Includes\Public;
+namespace WOOWCMS\Includes\Front;
 
 class Enqueue_Scripts{
 

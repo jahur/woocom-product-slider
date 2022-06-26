@@ -3,7 +3,7 @@ Contributors:jahur
 Tags: WooCommerce, wooCommerce product slider, woo product slider, product slider
 Requires at least: 4.0
 Tested up to: 6.0
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 
 A simple way to show woocommerce products in your website!
 
